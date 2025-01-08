@@ -1,0 +1,19 @@
+@import 'columns.scss';
+@import 'header.scss';
+@import 'card.scss';
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.app {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: black ;
+  &.dark {
+    background: #27374D;
+    color: #DDE6ED;
+
+  }
+}

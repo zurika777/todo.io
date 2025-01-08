@@ -1,0 +1,41 @@
+.col__columns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  //height: 100vh;
+  max-height: 100vh;
+  min-height: 100vh;
+
+}
+.col__column{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  border-left: 1px solid silver;
+
+}
+.col__column_title{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.col__column_id{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  &.dark{
+    color: yellow;
+  }
+  &.light {
+    color: red;
+  }
+}
+.h3 {
+  color: red;
+  font-size: 3rem;
+}

@@ -1,0 +1,18 @@
+.cart__container {
+  display: flex;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  border: 1px dashed #ccc;
+  p {
+  margin: 0;
+  }
+  &.dark {
+    background-color: #DDE6ED;
+  p {
+    color: #526D82;
+  }
+  }
+}
